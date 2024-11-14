@@ -1,0 +1,55 @@
+/* Style the navbar brand (logo/text) */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Customize the navbar links */
+  .nav-link {
+    color: #555; /* Default link color */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  /* Customize the active link */
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Customize the dropdown items */
+  .dropdown-menu {
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Disable link style */
+  .nav-link.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Customize the search form */
+  .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .btn-outline-success {
+    border-radius: 0.25rem;
+  }
+  
+  /* Adjust navbar padding */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Additional padding for form controls */
+  .form-control {
+    margin-right: 0.5rem;
+  }
+  
